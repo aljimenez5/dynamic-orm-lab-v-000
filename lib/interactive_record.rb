@@ -40,5 +40,6 @@ class InteractiveRecord
     sql = <<-SQL
       INSERT INTO '#{table_name_for_insert}' '#{col_names_for_insert}' 
       VALUES '#{values_for_insert}'
-  
+    SQL
+  end
 end
