@@ -29,7 +29,7 @@ class InteractiveRecord
   end
   
   def values_for_insert
-    self.class.col_names_for_insert
+    self.col_names_for_insert
       
     
   end
