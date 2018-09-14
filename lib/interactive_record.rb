@@ -48,6 +48,7 @@ class InteractiveRecord
   
   def self.find_by(attribute)
     att_key = ""
+    att_value = ""
     attribute.each do |key, value|
       att_key = key.to_s
       att_value = value.to_s 
