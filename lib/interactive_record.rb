@@ -42,4 +42,6 @@ class InteractiveRecord
       VALUES '#{values_for_insert}'
     SQL
   end
+  
+  
 end
