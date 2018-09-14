@@ -29,7 +29,7 @@ class InteractiveRecord
   end
   
   def values_for_insert
-    self.class.column_names.each do |col_name|
+    self.class.column_name_for_insert.each do |col_name|
       
     
   end
