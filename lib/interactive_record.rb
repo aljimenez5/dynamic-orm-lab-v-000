@@ -28,5 +28,5 @@ class InteractiveRecord
     self.class.column_names.delete_if {|col_name| col_name == "id"}.join(', ')  
   end
   
-  def col_name_for_insert
+  def values_for_insert
 end
