@@ -50,7 +50,7 @@ class InteractiveRecord
     att_key = ""
     att_value = ""
     attribute.each do |key, value|
-      att_key = key.to_s
+      att_key += key.to_s
       att_value = value.to_s 
     end
     DB[:conn].execute("SELECT * FROM #{table_name} WHERE #{att_key} = ?", att_value)
