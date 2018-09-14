@@ -25,6 +25,6 @@ class InteractiveRecord
   end
   
   def col_name_for_insert
-    self.class.column_names  
+    self.class.column_names.each {|col_name|   
   end
 end
